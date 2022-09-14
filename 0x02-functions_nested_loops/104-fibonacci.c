@@ -16,7 +16,7 @@ for (count = 1; count <= 91; count++)
 k = i + j;
 i = 0;
 j = 1;
-printf("%lu", k);
+printf("%lu, ", k);
 }
 m = i % 1000;
 i = i / 1000;
