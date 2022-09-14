@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unistd.h>
 /**
  * main - Prints _putchar
  * Return: 0 on success
