@@ -14,8 +14,8 @@ j = 0;
 for (count = 1; count <= 91; count++)
 {
 k = i + j;
-i = 0;
-j = 1;
+i = j;
+j = k;
 printf("%lu, ", k);
 }
 m = i % 1000;
