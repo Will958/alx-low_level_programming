@@ -2,6 +2,7 @@
 /**
  * print_number - prints a number
  * @n: Input number
+ * Return: void.
  */
 
 void print_number(int n)
