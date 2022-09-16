@@ -1,15 +1,17 @@
 #include "main.h"
 /**
- * print_most_numbers - prints numbers from 0 - 9 except 2 and 4.
+ * print_most_numbers - prints numbers from 0 - 9.
  * _putchar - displays the values followed by a newline.
  */
 void print_most_numbers(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+char c;
+for (c = '0'; c <= '9'; c++)
 {
-if (!(i == '2' && i == '4'))
+if (!(c == '2' && c == '4'))
+{
 _putchar(i);
+}
 }
 _putchar('\n');
 }
