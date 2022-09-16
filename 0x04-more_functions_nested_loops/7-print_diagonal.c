@@ -5,7 +5,7 @@
  */
 void print_diagonal(int n)
 {
-int a, b;
+int i, j;
 if (n > 0)
 {
 for (i = 1; i <= n; i++)
