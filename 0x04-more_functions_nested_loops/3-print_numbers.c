@@ -11,5 +11,4 @@ for (a = 0; a <= 9; a++)
 _putchar (1 + '0');
 }
 _putchar ('\n');
-return (0);
 }
