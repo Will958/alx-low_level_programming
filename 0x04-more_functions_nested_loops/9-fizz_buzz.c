@@ -20,6 +20,6 @@ printf("%d", i);
 if (i != 100)
 putchar(' ');
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
