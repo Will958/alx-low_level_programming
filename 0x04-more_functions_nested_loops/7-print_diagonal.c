@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - Draws diagonal line on terminal.
+ * @n: the number of times the backslash character should be printed.
  * Return: void
  */
 void print_diagonal(int n)
