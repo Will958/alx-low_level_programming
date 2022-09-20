@@ -6,8 +6,8 @@
  * Return: nothing
  */
 void swap_int(int *a, int *b)
-int x, y;
 {
+int x, y;
 x = *a;
 y = *b;
 *a = y;
