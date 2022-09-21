@@ -10,11 +10,11 @@ int main(void)
 int i, sum;
 srand(time(NULL));
 sum = 0;
-while (sum <= 2645
+while (sum <= 2645)
 {
-a = (rand() % 128);
-sum +=a;
-printf("%c", a);
+i = (rand() % 128);
+sum += i;
+printf("%c", i);
 }
 printf("%c", 2772 -sum)
 return (0);
