@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * puts2 - prints all characters of a string
  * @str: string
