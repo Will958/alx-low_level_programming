@@ -2,11 +2,12 @@
 /**
  * puts2 - prints all characters of a string
  * @str: string
- * Return * void
+ * Return: void
  */
 void puts2(char *str)
 {
 int i;
+i = 0;
 while (str[i] != '\0')
 {
 if (i % 2 == 0)
