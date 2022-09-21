@@ -16,6 +16,6 @@ i = (rand() % 128);
 sum += i;
 printf("%c", i);
 }
-printf("%c", 2772 -sum)
+printf("%c", 2772 -sum);
 return (0);
 }
