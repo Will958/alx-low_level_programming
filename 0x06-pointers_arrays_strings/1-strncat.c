@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _strncat - concentrates two strings
- * @dest: return pointer
- * @src: source pointer
+ * @dest: pointer to the destination string
+ * @src: pointer to the source string
  * @n: number of bytes of src
- * Return: result string
+ * Return: pointer to the result string
  */
 char *_strncat(char *dest, char *src, int n)
 {
