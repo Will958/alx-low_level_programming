@@ -7,12 +7,7 @@
  */
 int _strcmp(char *dest, char *src, int n)
 {
-int a, b;
-a = 0;
-while (s1[a] == s2[b] && s1[a] != '\0')
-{
-a++;
-}
-b = s1[a] - s2[a];
-return (b);
+int a;
+for (i =0; s1[a] != '\0' && s2[a] !='\0' && s1[a] == s2[a]; a++);
+return (s1[a - s2[a]]);
 }
