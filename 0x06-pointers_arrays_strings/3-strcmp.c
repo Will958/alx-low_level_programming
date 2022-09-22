@@ -5,7 +5,7 @@
  * @s2: string to compair
  * Return: integer
  */
-int _strcmp(char *s1, char *s2)
+int _strcmp(char *dest, char *src, int n)
 {
 int a, b;
 a = 0;
