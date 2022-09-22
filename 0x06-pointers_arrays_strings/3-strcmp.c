@@ -13,6 +13,6 @@ while (s1[a] == s2[b] && s1[a] != '\0')
 {
 a++;
 }
-j = s1[i] - s2[i];
-return (j);
+b = s1[a] - s2[a];
+return (b);
 }
