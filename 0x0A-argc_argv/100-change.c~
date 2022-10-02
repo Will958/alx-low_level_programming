@@ -31,7 +31,7 @@ cents -= 2;
 }
 else if (cents >= 1)
 {
-cents -= 1;
+cents -=1;
 }
 coins += 1;
 }
