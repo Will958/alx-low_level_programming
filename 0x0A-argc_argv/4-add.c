@@ -6,7 +6,7 @@
  *main - adds all arguments together if they are digits
  *@argc: argument count only accepts ints separated by spaces
  *@argv: argument vector
- *Return: 0 on success, 1 0n failure
+ *Return: 0 on success, 1 on failure
  */
 int main(int argc, char *argv[])
 {
