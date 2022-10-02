@@ -8,7 +8,8 @@
  */
 int main(int argc, char *argv[])
 {
-int cents, coins = 0;
+int cents, coins;
+coins = 0;
 if (args == 1 || argc > 2)
 {
 printf("Error\n");
