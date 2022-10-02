@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
 #include <stdlib.h>
-#include <string.h>
 /**
  *main - adds all arguments together if they are digits
  *@argc: argument count only accepts ints separated by spaces
