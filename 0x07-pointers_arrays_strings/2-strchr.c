@@ -7,19 +7,17 @@
  */
 char *_strchr(char *s, char c)
 {
-char *p;
-int i;
-for (i = 0; s[i] != '\0'; i++)
+while (*s != '\0')
 {
-if (s[i] == c)
+if (*s == c)
 {
-p = &s[i];
-break;
+return (s);
 }
-}
-if (s[i] == c)
+else if (*(s + 1) == c)
 {
-p = &s[i];
+return (s + 1);
 }
-return (p);
+s++;
+}
+return (s + 1);
 }
