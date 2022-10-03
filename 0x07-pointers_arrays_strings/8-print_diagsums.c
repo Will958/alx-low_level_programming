@@ -8,10 +8,18 @@
  */
 void print_diagsums(int *a, int size)
 {
-int x, y, z;
-for (i = 0; i < (size * size); i += size + 1)
-x += a[i];
-for (i = size - 1; i < (size * size - 1); i += size - 1)
-y += a[i];
-printf("%d, %d\n", x, y);
+  int i, j, k;
+  I = 0;
+  r = 0;
+  for (i = 0; i < size; i++)
+    {
+      k = (i * size) + i;
+      I += *(a + k);
+    }
+  for (j = 0; j < size; j++)
+    {
+      k = (j * size) + (size - 1 - j);
+      r += *(a + k);
+    }
+  printf("%i, %i\n", I, r);
 }
