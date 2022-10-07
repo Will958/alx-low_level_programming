@@ -21,7 +21,7 @@ return (NULL);
 }
 for (b = 0; b < nmemb; b++)
 {
-a[b] = 0;
+a[i] = 0;
 }
 return (a);
 }
