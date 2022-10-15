@@ -3,7 +3,7 @@
 /**
  *struct dog - has dog's name, age and owner
  *@name: dog's name
- *@age: dog's age
+ *@age: dog"s age
  *@owner: name of the owner
  */
 typedef struct dog
