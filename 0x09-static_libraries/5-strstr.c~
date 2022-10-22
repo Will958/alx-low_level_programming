@@ -3,6 +3,7 @@
  *_strstr - compairs two strings within b bytes
  *@s1: string to check
  *@s2: string to check from
+ *@b: number of bytes to check
  *Return: 0 if the strings are the same
  *other number if they are different
  */
