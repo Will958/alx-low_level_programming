@@ -19,13 +19,13 @@ while (owner[olen++])
 bruno = malloc(sizeof(dog_t));
 if (bruno == NULL)
 return (NULL);
-bruno->name = malloc(nlen * sizeof(bruno->name));
+bruno->name = malloc(nlen *sizeof(bruno->name));
 if (bruno == NULL)
 return (NULL);
 for (i = 0; i < nlen; i++)
 bruno->name[i] = name[i];
 bruno->age = age;
-bruno->owner = malloc(olen *sizeof(bruno->owner));
+bruno->owner = malloc(olen * sizeof(bruno->owner));
 if (bruno == NULL)
 return (NULL);
 for (i = 0; i < olen; i++)
