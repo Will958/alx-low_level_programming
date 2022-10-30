@@ -30,6 +30,6 @@ for (b = 0; b < a; b++)
 {
 s[b] = str[b];
 }
-s[j] = '\0';
+s[b] = '\0';
 return (s);
 }
