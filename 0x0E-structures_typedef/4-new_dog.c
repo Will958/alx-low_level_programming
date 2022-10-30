@@ -19,10 +19,10 @@ while (owner[olen++])
 bruno = malloc(sizeof(dog_t));
 if (bruno == NULL)
 return (NULL);
-bruno->name = malloc(nlen * sizeof(bruno->name));
+bruno->name = malloc(nlen *sizeof(bruno->name));
 if (bruno == NULL)
 return (NULL);
 for (i = 0; i < olen; i++)
 bruno->owner[i] = owner[i];
-retuen (bruno);
+return (bruno);
 }
