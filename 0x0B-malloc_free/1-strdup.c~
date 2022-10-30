@@ -28,8 +28,7 @@ return (NULL);
 }
 for (b = 0; b < a; b++)
 {
-s[b] = str[b];
+s[b] = '\0';
 }
-s[j] = '\0';
 return (s);
 }
