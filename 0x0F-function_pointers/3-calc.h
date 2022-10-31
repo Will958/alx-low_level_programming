@@ -1,5 +1,5 @@
-#ifndef _CALC_
-#define _CALC_
+#ifndef CALC
+#define CALC
 typedef struct op
 {
 char *op;

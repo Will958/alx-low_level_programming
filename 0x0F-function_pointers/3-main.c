@@ -3,10 +3,10 @@
 #include "3-calc.h"
 /**
  *main - checks functions
- *@args: number of arguments
+ *@argc: number of arguments
  *@argv: pointer to array
  *Return: 0
- *
+ */
 int main(int argc, char argv[])
 {
 int num1, num2;

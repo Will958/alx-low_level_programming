@@ -1,7 +1,7 @@
 #include "3-calc.h"
 #include <stdlib.h>
 /**
- *@get_op_func - selects correct operation to perform
+ *get_op_func - selects correct operation to perform
  *@s: operator
  *Return: int(*)(int, int)
  */
